@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Contact</a>
+            <button class="btnlogin">Login</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email"  required>
+                    <!-- <label >Email</label>  evabe likhle cholbe -->
+                    <label  >Email</label>
+                    <!-- evabe likhle cholbe na karon "input-box input:valid~label" eta check korche j tomar deoa input ta sotti e email kina
+                         jodi email hoi taole kaj korbe kintu email na hole kaj korbena , faruk@gmail.com likhle eatao kaj korbe
+                          kintu " faruk " likhle kaj korbe na karon ota valid email na -->
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" required>
+                    <label >Password</label>
+                </div>
+
+                <div class="remember"><label><input type="checkbox">Remember Me</label>
+                    <a class="forget" href="#">Forgot Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="regester">
+                    <p>Don't have an account? <a href="#" class="regester-link">Regester</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
